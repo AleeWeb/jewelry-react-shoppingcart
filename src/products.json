@@ -1,0 +1,23 @@
+[
+    {
+        "id": "1",
+        "name": "First Product",
+        "description": "This is the first product",
+        "price": "3.99",
+        "imageUrl": "http://materializecss.com/images/sample-1.jpg"
+    },
+    {
+        "id": "2",
+        "name": "Second Product",
+        "description": "This is the second product",
+        "price": "5.99",
+        "imageUrl": "http://materializecss.com/images/sample-1.jpg"
+    },
+    {
+        "id": "3",
+        "name": "Third Product",
+        "description": "This is the third product",
+        "price": "10.99",
+        "imageUrl": "http://materializecss.com/images/sample-1.jpg"
+    }
+]
