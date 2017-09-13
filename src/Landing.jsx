@@ -8,10 +8,13 @@ class Landing extends Component {
         const productCards = products.map(product => <ProductCard productId={product.id} key={product.id} />);
 
         return (
-            <div>
+            <div class="container">
                 <h1>Landing Component!</h1>
+
+                <div class="row">
                 {productCards}
                 <Link to="/cart">Go to Cart</Link>
+                </div>
             </div>
         );
     }

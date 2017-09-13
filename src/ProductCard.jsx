@@ -15,7 +15,7 @@ class ProductCard extends Component {
         return (
             <div className="cards-wrapper">
                  <div className="row">
-                    <div className="col s12 m6">
+                    <div className="col s4 m4">
                     <div className="card">
                         <div className="card-image">
                         <img src={product.imageUrl} />

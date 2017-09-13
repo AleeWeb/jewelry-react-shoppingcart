@@ -4,7 +4,7 @@
         "name": "First Product",
         "description": "This is the first product",
         "price": "3.99",
-        "imageUrl": "http://materializecss.com/images/sample-1.jpg"
+        "imageUrl": "http://via.placeholder.com/350x200"
     },
     {
         "id": "2",
