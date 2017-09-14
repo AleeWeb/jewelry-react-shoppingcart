@@ -8,9 +8,9 @@ class Landing extends Component {
         const productCards = products.map(product => <ProductCard productId={product.id} key={product.id} />);
 
         return (
-            <div class="container">
-                <div class="col s12">
-                    <div class="row">
+            <div classNames="container">
+                <div className="col s12">
+                    <div className="row">
 
                 {productCards}
                 
