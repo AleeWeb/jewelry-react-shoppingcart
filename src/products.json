@@ -4,20 +4,20 @@
         "name": "First Product",
         "description": "This is the first product",
         "price": "3.99",
-        "imageUrl": "http://via.placeholder.com/350x200"
+        "imageUrl": "http://via.placeholder.com/350x150"
     },
     {
         "id": "2",
         "name": "Second Product",
         "description": "This is the second product",
         "price": "5.99",
-        "imageUrl": "http://materializecss.com/images/sample-1.jpg"
+        "imageUrl": "http://via.placeholder.com/350x150"
     },
     {
         "id": "3",
         "name": "Third Product",
         "description": "This is the third product",
         "price": "10.99",
-        "imageUrl": "http://materializecss.com/images/sample-1.jpg"
+        "imageUrl": "http://via.placeholder.com/350x150"
     }
 ]

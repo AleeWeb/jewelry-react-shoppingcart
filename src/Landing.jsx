@@ -9,11 +9,13 @@ class Landing extends Component {
 
         return (
             <div class="container">
-                <h1>Landing Component!</h1>
+                <div class="col s12">
+                    <div class="row">
 
-                <div class="row">
                 {productCards}
+                
                 <Link to="/cart">Go to Cart</Link>
+                    </div>
                 </div>
             </div>
         );

@@ -9,7 +9,7 @@ class Header extends Component {
         return (
             <div>
                 <img src={source} />
-                <h1>Inspired Adornment</h1>
+                <h3>Inspired Adornment</h3>
             </div>
         );
     }

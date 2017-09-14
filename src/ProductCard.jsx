@@ -13,6 +13,7 @@ class ProductCard extends Component {
         const product = products.find(product => product.id === this.props.productId);
 
         return (
+
             <div className="cards-wrapper">
                  <div className="row">
                     <div className="col s4 m4">
@@ -30,7 +31,7 @@ class ProductCard extends Component {
                     </div>
                     </div>
                 </div>
-            </div>
+            </div> 
         );
     }
 }
