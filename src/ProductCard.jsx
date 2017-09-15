@@ -14,21 +14,17 @@ class ProductCard extends Component {
 
         return (
 
-            <div className="cards-wrapper">
-                 <div className="row">
-                    <div className="col s4 m4">
-                    <div className="card">
-                        <div className="card-image">
+            <div className="cards-wrapper col s4">
+                <div className="card">
+                    <div className="card-image">
                         <img src={product.imageUrl} />
                         <span className="card-title">{product.name}</span>
-                        <a className="btn-floating halfway-fab waves-effect waves-light red" onClick={this.addToCart.bind(this)}>
-                            <i className="material-icons">add</i>
+                        <a className="btn-floating btn-large halfway-fab waves-effect waves-light red" onClick={this.addToCart.bind(this)}>
+                            <i className="material-icons"></i>
                         </a>
-                        </div>
-                        <div className="card-content">
-                        <p>{product.description}</p>
-                        </div>
                     </div>
+                    <div className="card-content">
+                        <p>{product.description}</p>
                     </div>
                 </div>
             </div> 
