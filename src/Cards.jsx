@@ -1,7 +1,9 @@
 import React, { Component } from 'react';
 require('materialize-css/dist/css/materialize.min.css');
 
+
 class Cards extends Component {
+
     render() {
         return (
             <div className="cards-wrapper">
@@ -11,7 +13,7 @@ class Cards extends Component {
                         <div className="card-image">
                         <img src="http://materializecss.com/images/sample-1.jpg"/>
                         <span className="card-title">Card Title</span>
-                        <a className="btn-floating halfway-fab waves-effect waves-light red"><i className="material-icons">add</i></a>
+                        <a className="btn-floating halfway-fab blue accent-4"><i className="material-icons">add</i></a>
                         </div>
                         <div className="card-content">
                         <p>I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.</p>
