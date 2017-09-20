@@ -26,5 +26,19 @@
         "description": "This is the fourth product",
         "price": "5.99",
         "imageUrl": "http://via.placeholder.com/350x150"
+    },
+    {
+        "id": "5",
+        "name": "Fourth Product",
+        "description": "This is the fourth product",
+        "price": "5.99",
+        "imageUrl": "http://via.placeholder.com/350x150"
+    },
+    {
+        "id": "6",
+        "name": "Fourth Product",
+        "description": "This is the fourth product",
+        "price": "5.99",
+        "imageUrl": "http://via.placeholder.com/350x150"
     }
 ]
