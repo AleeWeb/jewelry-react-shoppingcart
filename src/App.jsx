@@ -8,7 +8,7 @@ class App extends Component {
     render() {
         return (
             <div>
-                <Header />
+            
                 <Switch>
                     <Route exact path='/' component={Landing}/>
                     <Route exact path='/cart' component={Cart}/>

@@ -16,7 +16,7 @@ class Cart extends Component {
 
         return (
             <div>
-                <h1>Cart Component!</h1>
+                <h3>Welcome to your shopping cart.</h3>
                 <table>
                     <tr>
                         <th>Price</th>

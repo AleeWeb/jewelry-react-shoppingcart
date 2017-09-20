@@ -1,7 +1,221 @@
 
 
+/* homebg jsx */
+
+#banner {
+        position: relative;
+        background:url("http://aliciaworks.com/appsimgs/bgblack-800h.jpg") no-repeat center center;
+        background-size: cover;
+        width: 100%;
+        height: 100vh;
+        top: -21px;
+        padding-top: 20px;       
+}
+
+#main-txt {
+        font-family: 'Allura', cursive; 
+        color: #FF0099;    
+}
+
+#subhead {
+        color: #FFF;
+        position: relative;
+        top: -20px;
+}
+
+.header-txt {
+        position: relative;
+        top: 90px;
+}
+
+#solid-btn {
+        position: relative;
+        width: 200px;
+        height: 90px;
+        color: #fff;
+        background-color: #FF3399;
+        padding: 10px;
+        border-radius: 5px;
+        border: 1px solid #fff;
+        margin-right: 20px;
+        top: 20px;
+        left: 10px;       
+}
+
+#solid-btn:hover {
+        position: relative;
+        width: 200px;
+        height: 90px;
+        color: #fff;
+        background-color: #CC3366;
+        padding: 10px;
+        border-radius: 5px;
+        border: 1px solid #FFFF00;
+        margin-right: 20px;
+        top: 20px;
+        left: 10px;       
+}
+
+#clear-btn {
+        position: relative;
+        width: 200px;
+        height: 90px;
+        color: #fff;
+        background-color: transparent;  
+        padding: 10px;
+        border-radius: 5px;
+        border: 1px solid #fff;
+        margin-right: 20px;
+        top: 20px;
+        left: 10px;       
+}
+
+#clear-btn:hover {
+        position: relative;
+        width: 200px;
+        height: 90px;
+        color: #fff;
+        background-color: transparent;  
+        padding: 10px;
+        border-radius: 5px;
+        border: 1px solid #FFFF00;
+        margin-right: 20px;
+        top: 20px;
+        left: 10px;       
+}
+
+
+
+/* Product cards*/
+
+
 #newbtn {
         background-color:#3399FF;
         border-radius:10px;
         padding: 5px;
 }
+
+#newbtn:hover {
+        background-color: #33CCFF;
+}
+
+
+
+/* --- Responsive Media Queries --- */
+
+@media screen and (max-width: 767px) {
+	
+}
+
+@media (min-width: 768px) and (max-width: 979px) {
+	
+}
+
+
+
+
+/*For Screen 1024x768  */
+@media (min-width: 1024px) and (max-height: 768px) {
+	
+}
+
+
+
+/*For Screens 1366x768, 1280x1024, 1280x800  */
+@media (min-width: 1200px) and (max-width: 1366px) {
+
+}
+
+
+/*For Screen 1440 x 900 */
+@media (width: 1440px) {
+	video-container {
+		height: 100%;
+	}
+	.header-container {
+		min-height: 800px;
+		height: auto;
+	}
+}
+
+
+
+/*For Screen 1410 */
+@media (min-width: 1400px) and (max-width: 1410px) {
+	video-container {
+		height: 100%;
+	}
+	.header-container {
+		min-height: 800px;
+		height: auto;
+	}
+}
+
+
+/*For 1540x890 and 1580x880 */
+@media (min-width: 1540px) and (max-width: 1580px) {
+	video-container {
+		height: 100%;
+	}
+	.header-container {
+		min-height: 855px;
+		height: 100%;
+	}
+}
+
+
+
+/*For 1680 x 1050, 1600 x 1200 and 1750x860 */
+@media (min-width: 1600px) and (max-width: 1750px) {
+	
+h2 {
+        font-size: 5rem;
+    }
+    
+    h5 {
+            font-size: 2rem;
+    }
+    
+    .header-txt {
+        position: relative;
+        top: 280px;
+        right: 150px;
+    }
+    
+    
+}
+
+
+/*For Screens 1820x1140 */
+@media (min-width: 1800px) and (max-width: 1820px) {
+
+        h2 {
+                font-size: 5rem;
+            }
+            
+            h5 {
+                    font-size: 2rem;
+            }
+            
+            .header-txt {
+                position: relative;
+                top: 280px;
+                right: 50px;
+            }
+}
+
+
+
+/*For Screens 1900x910, 1920x960 and 1920 x 1200 */
+@media (min-width: 1900px) and (max-width: 1920px) {
+	video-container {
+		height: 100%;
+	}
+	.header-container {
+		min-height: 1020px;
+		height: 100%;
+	}
+}
+
+
+
