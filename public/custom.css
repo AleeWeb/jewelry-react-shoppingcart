@@ -85,6 +85,37 @@
 }
 
 
+#cart-btn {
+        position: relative;
+        width: 200px;
+        height: 90px;
+        color: #fff;
+        background-color: #FF3399;
+        padding: 10px;
+        border-radius: 5px;
+        border: 1px solid #fff;
+        margin-right: 20px;
+        top: 20px;
+        left: 10px;    
+        margin-bottom: 40px;
+}
+
+
+#cart-btn:hover {
+        position: relative;
+        width: 200px;
+        height: 90px;
+        color: #fff;
+        background-color: #CC3366;
+        padding: 10px;
+        border-radius: 5px;
+        border: 1px solid #FFFF00;
+        margin-right: 20px;
+        top: 20px;
+        left: 10px;       
+}
+
+
 
 /* Product cards*/
 

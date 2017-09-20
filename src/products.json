@@ -4,41 +4,41 @@
         "name": "First Product",
         "description": "This is the first product",
         "price": "3.99",
-        "imageUrl": "http://via.placeholder.com/350x150"
+        "imageUrl": "http://aliciaworks.com/appsimgs/orange-necklace.jpg"
     },
     {
         "id": "2",
         "name": "Second Product",
         "description": "This is the second product",
         "price": "5.99",
-        "imageUrl": "http://via.placeholder.com/350x150"
+        "imageUrl": "http://aliciaworks.com/appsimgs/green-earrings.jpg"
     },
     {
         "id": "3",
         "name": "Third Product",
         "description": "This is the third product",
         "price": "10.99",
-        "imageUrl": "http://via.placeholder.com/350x150"
+        "imageUrl": "http://aliciaworks.com/appsimgs/aqua-bracelet.jpg"
     },
     {
         "id": "4",
         "name": "Fourth Product",
         "description": "This is the fourth product",
         "price": "5.99",
-        "imageUrl": "http://via.placeholder.com/350x150"
+        "imageUrl": "http://aliciaworks.com/appsimgs/purple-bracelet.jpg"
     },
     {
         "id": "5",
         "name": "Fourth Product",
         "description": "This is the fourth product",
         "price": "5.99",
-        "imageUrl": "http://via.placeholder.com/350x150"
+        "imageUrl": "http://aliciaworks.com/appsimgs/multi-necklace.jpg"
     },
     {
         "id": "6",
         "name": "Fourth Product",
         "description": "This is the fourth product",
         "price": "5.99",
-        "imageUrl": "http://via.placeholder.com/350x150"
+        "imageUrl": "http://aliciaworks.com/appsimgs/zulu-bracelet.jpg"
     }
 ]

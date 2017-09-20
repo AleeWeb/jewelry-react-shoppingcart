@@ -26,7 +26,9 @@ return (
             <div className="row">
                 {productCards}
             </div>
-            <a class="waves-effect waves-light btn-large" href="/cart">Go to Cart</a>
+
+            <a id="cart-btn" role="button" href="/cart">Go to Cart</a>
+
         </div>
     </div>
         );

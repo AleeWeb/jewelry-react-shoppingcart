@@ -8,21 +8,34 @@ class Cart extends Component {
         const productsInCart = productIdsInCart.map(productId => products.find(product => productId === product.id));
 
         const tableRows = productsInCart.map(product => (
+
+            
+            
+    <table>
+        <tbody>
             <tr>
                 <td>{product.price}</td>
                 <td>{product.name}</td>
             </tr>
+        </tbody>
+    </table>
         ));
 
         return (
-            <div>
-                <h3>Welcome to your shopping cart.</h3>
+
+
+
+            <div className="container">
+                <h4>Welcome to your shopping cart</h4>
+           
                 <table>
-                    <tr>
-                        <th>Price</th>
-                        <th>Name</th>
-                    </tr>
-                    {tableRows}
+                     <tbody>
+                     {tableRows}
+                        <tr>
+                            <th>Price</th>
+                            <th>Name</th>
+                        </tr>
+                        </tbody>
                 </table>
             </div>
         );
