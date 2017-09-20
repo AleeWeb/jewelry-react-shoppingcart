@@ -21,7 +21,7 @@ class ProductCard extends Component {
                         <img src={product.imageUrl} />
                         
                         <a className="btn-floating halfway-fab" id="newbtn" onClick={this.addToCart.bind(this)}>
-                        <FontAwesome name="cart-plus" size="2x"/>
+                        <FontAwesome name="cart-plus" size="2x" />
                         </a>
                     </div>
                     <div className="card-content">

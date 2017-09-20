@@ -90,12 +90,13 @@
  line-height: 27px;
 }
 
+/* Go to cart button */
+
 #cart-btn {
         position: relative;
         width: 200px;
         height: 90px;
         color: #fff;
-        background-color: #FF3399;
         padding: 10px;
         border-radius: 5px;
         border: 1px solid #fff;
@@ -103,6 +104,12 @@
         top: 20px;
         left: 10px;    
         margin-bottom: 40px;
+
+        background: #FF3399; /* For browsers that do not support gradients */
+        background: -webkit-linear-gradient(#FF3399, #cc0066); /* For Safari 5.1 to 6.0 */
+        background: -o-linear-gradient(#FF3399, #cc0066); /* For Opera 11.1 to 12.0 */
+        background: -moz-linear-gradient(#FF3399, #cc0066); /* For Firefox 3.6 to 15 */
+        background: linear-gradient(#FF3399, #cc0066); /* Standard syntax */
 }
 
 
@@ -126,14 +133,18 @@
 
 
 #newbtn {
-        background-color: #660099;
+        background-color: transparent;
         border-radius:10px;
         padding: 5px;
+        box-shadow: none;    
+        color: #E0E0E0;
 }
 
 #newbtn:hover {
-        background-color: #33CCFF;
+        color: #33CCFF;
 }
+
+
 
 
 
