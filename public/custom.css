@@ -84,6 +84,11 @@
         left: 10px;       
 }
 
+/* End of banner code */
+
+#about_owner {
+ line-height: 27px;
+}
 
 #cart-btn {
         position: relative;

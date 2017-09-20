@@ -8,7 +8,7 @@ class About extends Component {
             <h4>About Inspired Adornment</h4>
             <h5>Company Owner, Asia Simone Kelly</h5>
 
-            <p>Asia S. Kelly was born and raised in NYC. She is a former teacher, tax professional 
+            <p id="about_owner">Asia S. Kelly was born and raised in NYC. She is a former teacher, tax professional 
                 and executive assistant. Numbers and administration are her gifts. She loves jewelry, makeup,
                  cats, her natural hair, the latest episodes of Insecure, and considers herself a 
                  champion for Black girls and women alike. She graduated with a BS in Mathematics, 
