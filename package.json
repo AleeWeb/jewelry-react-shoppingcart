@@ -6,7 +6,6 @@
   "scripts": {
     "dist": "./node_modules/.bin/webpack --config webpack.config.js",
     "dist:watch": "./node_modules/.bin/webpack --config webpack.config.js --watch",
-    "postinstall": "npm dist",
     "start": "node ./server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
