@@ -46,10 +46,8 @@
     "react-fontawesome": "^1.6.1",
     "react-router-dom": "^4.2.2",
     "url-loader": "^0.5.9",
-    "webpack-dev-middleware": "^1.12.0",
-    "webpack-hot-middleware": "^2.19.1"
+    "webpack": "^3.5.5"
   },
   "devDependencies": {
-    "webpack": "^3.5.5"
   }
 }
