@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Link } from 'react-router-dom'
+import { Link } from 'react-router-dom';
 import ProductCard from './ProductCard';
 import products from './products.json';
 import About from './about';
@@ -27,7 +27,7 @@ return (
                 {productCards}
             </div>
 
-            <a id="cart-btn" role="button" href="/cart">Go to Cart</a>
+            <Link id="cart-btn" role="button" to="/cart">Go to Cart</Link>
 
         </div>
     </div>
