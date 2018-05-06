@@ -3,4 +3,4 @@ This is a react shopping cart app and landing page demo for the small jewelry bu
 
 Click on the top buttons to navigate to the different parts in the one-page layout. Then click on the cart icons to add items to the cart. Click on the bottom "Go to Cart" button then it will take you to the cart page that displays the data in a table.
 
-<img src="http://aliciaworks.com/images/react-jewelrystore-screenshot.jpg" alt="React Store screenshot">
+<img src="https://i.imgur.com/ThxHZ9C.jpg" alt="React Store screenshot">
