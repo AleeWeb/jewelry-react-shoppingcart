@@ -4,41 +4,41 @@
         "name": "Gemstone",
         "description": "Gemstone Fashion Necklace",
         "price": "19.99",
-        "imageUrl": "http://aliciaworks.com/appsimgs/orange-necklace.jpg"
+        "imageUrl": "https://i.imgur.com/0nZpxIj.jpg"
     },
     {
         "id": "2",
         "name": "Earrings ",
         "description": "Labodrite Earrings",
         "price": "6.99",
-        "imageUrl": "http://aliciaworks.com/appsimgs/green-earrings.jpg"
+        "imageUrl": "https://i.imgur.com/TqLCsmN.jpg"
     },
     {
         "id": "3",
         "name": "Precious stones",
         "description": "Precious stones bracelet",
         "price": "10.99",
-        "imageUrl": "http://aliciaworks.com/appsimgs/aqua-bracelet.jpg"
+        "imageUrl": "https://i.imgur.com/2Ia0wwv.jpg"
     },
     {
         "id": "4",
         "name": "Charoite Beads",
         "description": "Charoite Beads Bracelet",
         "price": "8.99",
-        "imageUrl": "http://aliciaworks.com/appsimgs/purple-bracelet.jpg"
+        "imageUrl": "https://i.imgur.com/zw2ngev.jpg"
     },
     {
         "id": "5",
         "name": "Multi-color Beads",
         "description": "Multi-color beads necklace",
         "price": "5.99",
-        "imageUrl": "http://aliciaworks.com/appsimgs/multi-necklace.jpg"
+        "imageUrl": "https://i.imgur.com/8T8khIl.jpg"
     },
     {
         "id": "6",
         "name": "Zulu Bracelet",
         "description": "Colorful Zulu Bracelet",
         "price": "5.99",
-        "imageUrl": "http://aliciaworks.com/appsimgs/zulu-bracelet.jpg"
+        "imageUrl": "https://i.imgur.com/LL1ZQVC.jpg"
     }
 ]
