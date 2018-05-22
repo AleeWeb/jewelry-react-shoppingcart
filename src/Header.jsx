@@ -5,7 +5,6 @@ import Cart from './Cart';
 
 class Header extends Component {
     render() {
-        const source = require('../public/logo.png'); 
         return (
             <div>
                 <img src={source} />
