@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 require('materialize-css/dist/css/materialize.min.css');
 
 
-class Homebg extends Component {
+export class Homebg extends React.Component {
     render() {
         return (
             <div id="banner">

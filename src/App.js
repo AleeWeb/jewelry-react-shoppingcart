@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import { Route, Switch } from 'react-router-dom';
-import Header from './Header';
-import Landing from './Landing';
-import Cart from './Cart';
+import { Header } from './Header';
+import { Landing } from './Landing';
+import { Cart } from './Cart';
 
 class App extends Component {
     render() {

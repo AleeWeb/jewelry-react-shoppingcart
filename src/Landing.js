@@ -2,10 +2,10 @@ import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import ProductCard from './ProductCard';
 import products from './products.json';
-import About from './about';
-import Homebg from './homebg';
+import { About } from './About';
+import { Homebg } from './Homebg';
 
-class Landing extends Component {
+export class Landing extends React.Component {
     render() {
         const productCards = products.map(product => <ProductCard productId={product.id} key={product.id} />);
 
@@ -35,4 +35,4 @@ return (
     }
 }
 
-export default Landing;
+

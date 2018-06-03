@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 import { Route, Switch } from 'react-router-dom';
-import Landing from './Landing';
-import Cart from './Cart';
+import { Landing } from './Landing';
+import { Cart } from './Cart';
 
-class Header extends Component {
+export class Header extends React.Component {
     render() {
         return (
             <div>
@@ -14,4 +14,4 @@ class Header extends Component {
     }
 }
 
-export default Header;
+

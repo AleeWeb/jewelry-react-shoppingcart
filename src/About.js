@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 require('materialize-css/dist/css/materialize.min.css');
 
-class About extends Component {
+export class About extends React.Component {
     render() {
         return (
             <div className="about-us" id="about">

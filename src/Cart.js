@@ -3,7 +3,7 @@ import { getItemsInCart } from './cartItems';
 import products from './products.json';
 import { Link } from 'react-router-dom';
 
-class Cart extends Component {
+export class Cart extends React.Component {
     render() {
         const productIdsInCart = getItemsInCart();
         const productsInCart = productIdsInCart.map(productId => products.find(product => productId === product.id));
@@ -33,5 +33,3 @@ class Cart extends Component {
         );
     }
 }
-
-export default Cart;
