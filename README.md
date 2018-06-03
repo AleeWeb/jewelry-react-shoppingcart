@@ -6,7 +6,7 @@ This is a react shopping cart app and landing page demo for the small jewelry bu
 <strong>Instructions:</strong>
 
 <ul>
-<li>Download or rork repo.</li>
+<li>Download or fork this repo.</li>
 
 <li>Install node dependencies: npm i.</li>
 
