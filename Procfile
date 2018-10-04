@@ -1,0 +1,1 @@
+web: gunicorn react-jewelry-cart.wsgi --log-file -
